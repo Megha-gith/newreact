@@ -15,26 +15,26 @@ include 'connect.php';
     <h1>Registration</h1>
     <form  class="container" method="post" enctype="multipart/form-data" action="connect.php" >
 
-        <label for="name"><b>Enter your Name</b></label>
-        <input type="text" placeholder="your  name"  name="name"  required /><br><br>
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter your name" name="name"  required /><br><br>
 
      
-        <label for="email"><b>Enter your Email</b></label>
-        <input type="text" placeholder="your  email" name="email" required/><br><br>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter your email" name="email" required/><br><br>
 
-        <label for="psw"><b>Enter your Password</b></label>
-        <input type="password" placeholder="your  Password"  name="password" required/><br><br>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter your Password" name="password" required/><br><br>
 
-        <label for="Address">Enter your Address</b></label>
-        <textarea  placeholder="your  Address" name="address"></textarea><br><br>
+        <label for="Address">Address</b></label>
+        <textarea for="text" name="address"></textarea><br><br>
 
 
         <label for="phone no."><b>Enter your Phone No.</b></label>
-        <input type="number" placeholder="Phone No." name="phone" required/><br><br>
+        <input type="number"  name="phone" required/><br><br>
       
 
   
-        <label for="gender"><b>Select your Gender :</b></label>
+        <label for="gender"><b>Gender :</b></label>
     
         	<input type="radio" name="gender" value="Male"/>Male
         	<input type="radio" name="gender" value="Female"/>Female<br><br>
